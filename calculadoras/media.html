@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média de Notas</title>
+</head>
+<body>
+</body>
+
+<script>
+    alert("Calcule a média de suas notas!");
+
+    var comecar = confirm("Vamos começar?");
+
+    if (comecar) {
+        alert("Insira suas 3 notas:");
+        var numero1 = prompt("Digite sua primeira nota: ");
+        var numero2 = prompt("Digite sua segunda nota: ");
+        var numero3 = prompt("Digite sua terceira nota: ");
+
+        numero1 = parseFloat(numero1);
+        numero2 = parseFloat(numero2);
+        numero3 = parseFloat(numero3);
+
+        if(isNaN(numero1) || isNaN(numero2) || isNaN(numero3)) {
+            alert("O número inserido é invalido!");
+            location.reload();
+        } else {
+            var media = (numero1 + numero2 + numero3) / 3;
+
+            alert("Sua média é: " + parseInt(media));
+            location.reload();
+        }
+
+    } else {
+        alert("Obrigado por usar nosso programa!");
+        history.back();
+    }
+</script>
+</html>

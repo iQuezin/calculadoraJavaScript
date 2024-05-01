@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    alert("Olá! Escolha sua  operação:");
+    var escolha = prompt("1 - Soma | 2 - subtração | 3 - multiplicação | 4 - divisão | 0 - sair");
+
+    if(escolha > 4 || escolha < 0 || isNaN(escolha)) {
+        alert("escolha um caracter válido.");
+        location.reload();
+    } else {
+
+    
+        if (escolha == 1) {
+            var numero1 = prompt("Digite o primeiro número: ");
+            var numero2 = prompt("Digite o segundo número:");
+
+            var resultado = parseFloat(numero1) + parseFloat(numero2);
+
+            alert(numero1 + " + " + numero2 + " = " + resultado);
+            location.reload();
+        } else if (escolha == 2) {
+            var numero1 = prompt("Digite o primeiro número: ");
+            var numero2 = prompt("Digite o segundo número:");
+
+            var resultado = parseFloat(numero1) - parseFloat(numero2);
+
+            alert(numero1 + " - " + numero2 + " = " + resultado);
+            location.reload();
+        } else if (escolha == 3) {
+            var numero1 = prompt("Digite o primeiro número: ");
+            var numero2 = prompt("Digite o segundo número:");
+
+            var resultado = parseFloat(numero1) * parseFloat(numero2);
+
+            alert(numero1 + " x " + numero2 + " = " + resultado);
+            location.reload();
+        } else if (escolha == 4) {
+            var numero1 = prompt("Digite o primeiro número: ");
+            var numero2 = prompt("Digite o segundo número:");
+
+            var resultado = parseFloat(numero1) / parseFloat(numero2);
+
+            alert(numero1 + " / " + numero2 + " = " + resultado);
+            location.reload();
+        } else if (escolha == 0) {
+            alert("Obrigado por usar nosso Programa!");
+            history.back();
+        }
+    }
+
+</script>
+</html>
