@@ -5,10 +5,8 @@ Nele temos uma página principal onde o usuário pode escolher entre duas opçõ
 
 O programa utiliza códigos comuns e tudo é realizado a partir do prompt (Menos a interface inicial).
 
-# Programador: 
+# Programador:
 Kayque dos Santos Almeida
 
-
-- Meu perfil no linkedin:
-
-  [Linkedin](https://www.linkedin.com/in/kayque-dos-santos-almeida/)
+# Redes
+[Linkedin](https://www.linkedin.com/in/kayque-dos-santos-almeida/)
