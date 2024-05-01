@@ -8,6 +8,7 @@ O programa utiliza códigos comuns e tudo é realizado a partir do prompt (Menos
 # Programador: 
 Kayque dos Santos Almeida
 
-Meu perfil no linkedin:
 
-[Linkedin](https://www.linkedin.com/in/kayque-dos-santos-almeida/)
+- Meu perfil no linkedin:
+
+  [Linkedin](https://www.linkedin.com/in/kayque-dos-santos-almeida/)
